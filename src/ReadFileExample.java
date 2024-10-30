@@ -21,7 +21,6 @@ public class ReadFileExample {
             System.out.println("Tổng: " + sum);
         } catch (Exception e) {
             System.err.println("File không tồn tại hoặc nội dung có lỗi!");
-            e.printStackTrace();
         }
     }
 }
